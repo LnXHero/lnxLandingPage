@@ -2,7 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Pixelify Sans', cursive;
+    /* font-family: 'Pixelify Sans', cursive; */
+    font-family: cursive;
 }
 
 header {
@@ -28,6 +29,10 @@ header {
 #logo img {
     width: 100px;
     height: 100px;
+}
+
+.corPreta {
+    color: #000;
 }
 
 #logo {
@@ -84,7 +89,7 @@ header {
     text-align: center;
 }
 
-#register .field {
+.field {
     width: 100%;
     margin-bottom: 20px;
 }
@@ -107,4 +112,92 @@ header {
     color: white;
     padding: 0.75em;
     font-size: 1.3em;
+}
+
+.container {
+    max-width: 960px;
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#title h1 {
+    font-size: 3em;
+    border-bottom: 2px #ccc solid;
+    text-align: center;
+    padding-bottom: 1rem;
+    margin-top: 30px;
+}
+
+.home p {
+    text-align: justify;
+    margin-top: 30px;
+    /* text-indent: 90px; (colocar um espaçamento no começo do paragrafo)*/
+}
+
+#sobre,
+#contato,
+.inputs,
+.contact-conteiner {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.contact-conteiner {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.contact-conteiner input,
+.contact-conteiner textarea {
+    width: 220px;
+    padding: 10px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.contact-conteiner textarea {
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 468px;
+    height: 150px;
+}
+
+.contact-conteiner input[type=submit] {
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: chocolate;
+    color: white;
+}
+
+.contact-conteiner p {
+    text-align: center;
+}
+
+footer {
+    color: gray;
+    background-color: white;
+    font-size: 0.8em;
+}
+
+footer .container {
+    display: flex;
+    width: 100%;
+}
+
+footer .menu ul li a {
+    color: gray;
+}
+
+footer .container .menu {
+    display: flex;
+    justify-content: flex-end;
 }
